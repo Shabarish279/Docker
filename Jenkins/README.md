@@ -61,7 +61,7 @@ This Dockerfile:
 
 ---
 
-## How to Build
+### 7. How to Build
 
 Make sure you are in the directory containing the Dockerfile, then run:
 
@@ -70,7 +70,7 @@ docker build -t jenkins-dockerfile .
 
 ---
 
-## How to Run the Container
+### 8. How to Run the Container
 
 Start the Jenkins container using the following command:
 
