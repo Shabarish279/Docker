@@ -70,13 +70,13 @@ docker build -t jenkins-dockerfile .
 
 ---
 
+## How to Run the Container
 
-## How to run the container
-
-Start the Jenkins container using the following command
+Start the Jenkins container using the following command:
 
 ```bash
 docker run -p 8080:8080 jenkins-dockerfile
+``
 
 Once the container starts, access Jenkins in a web browser at:
 http://localhost:8080
