@@ -67,7 +67,7 @@ Make sure you are in the directory containing the Dockerfile, then run:
 
 ```bash
 docker build -t jenkins-dockerfile .
-
+```
 ---
 
 ## 7. How to Build
@@ -75,8 +75,7 @@ docker build -t jenkins-dockerfile .
 Make sure you are in the directory containing the Dockerfile, then run:
 
 ```bash
-docker build -t jenkins-dockerfile .
 docker run -p 8080:8080 jenkins-dockerfile
-
+```
 Once the container starts, access Jenkins in a web browser at:
 http://localhost:8080
